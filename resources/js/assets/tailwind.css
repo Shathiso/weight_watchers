@@ -1,5 +1,11 @@
 @tailwind base;
 
 @tailwind components;
+@layer base {
+  @font-face {
+    font-family: 'proxima-nova';
+    src: local('proxima-nova'), url('./fonts/ProximaNovaFont.otf') format('otf');
+  }
+}
 
 @tailwind utilities;

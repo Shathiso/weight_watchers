@@ -7,6 +7,7 @@
     <meta name="csrf-token" value="{{ csrf_token() }}" />
 
     <title>Weight watchers</title>
+    
 
     <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet" />
 </head>

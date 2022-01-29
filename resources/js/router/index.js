@@ -4,6 +4,7 @@ import Home from '../views/Home'
 import Login from '../views/Login'
 import Register from '../views/Register'
 import Admin from '../views/Admin'
+import Test from '../views/Test'
 
 
   Vue.use(VueRouter)
@@ -24,7 +25,11 @@ import Admin from '../views/Admin'
     { path: '/admin', 
     name: 'Admin',
     component: Admin 
-  }
+    },
+    { path: '/test', 
+    name: 'Test',
+    component: Test 
+    }
   ];
 
   const router = new VueRouter({
